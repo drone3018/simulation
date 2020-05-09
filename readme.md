@@ -11,12 +11,12 @@ docker-compose up
 Monitor 
 
 ```bash
-docker-compose logs -f [listener|talker|master]
+docker-compose logs -f <container_name> 
 ```
 
 Start the shell
 
 ```bash
-docker exec -it [master|talker|listener] bash
+docker exec -it <container_name> bash
 ```
 
